@@ -1,0 +1,56 @@
+
+
+#HotIf (WinActive("VALORANT") && hotKeysActive)
+Numpad1::{
+    __player.inventoryState.setClassic()
+}
+Numpad2::{
+    __player.inventoryState.setShorty()
+}
+Numpad3::{
+    __player.inventoryState.setFrenzy()
+}
+Numpad4::{
+    __player.inventoryState.setGhost()
+}
+Numpad5::{
+    __player.inventoryState.setSheriff()
+}
+F1::{
+    __player.inventoryState.setStinger()
+}
+F2::{
+    __player.inventoryState.setSpectre()
+}
+F3::{
+    __player.inventoryState.setBucky()
+}
+F4::{
+    __player.inventoryState.setJudge()
+}
+F5::{
+    __player.inventoryState.setBulldog()
+}
+F6::{
+    __player.inventoryState.setGuardian()
+}
+F7::{
+    __player.inventoryState.setPhantom()
+}
+F8::{
+    __player.inventoryState.setVandal()
+}
+F9::{
+    __player.inventoryState.setMarshal()
+}
+F10::{
+    __player.inventoryState.setOperator()
+}
+F11::{
+    __player.inventoryState.setAries()
+}
+F12::{
+    __player.inventoryState.setOdin()
+}
+
+#HotIf 
